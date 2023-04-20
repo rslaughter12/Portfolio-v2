@@ -4,4 +4,24 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    color: black;
 }
+body {
+    background-color: rgb(148, 148, 183);
+    color: black;
+}
+.img-fluid {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;                                
+    margin-left: 530px;
+  }
+  .box, .card {
+    background-color: #fffDD0;
+  }
+  .title {
+    color: black !important;
+  }
+  .navbar {
+    background-color: rgb(148, 148, 183) !important;
+  }

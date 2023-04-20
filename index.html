@@ -6,28 +6,112 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1/dist/css/bootstrap.min.css" integrity="sha384-fvLzWk3P7VU5UM6u/7Vd5D6EFyrkV4Nz4jL7yULfzmgXb7yoHjRh0pmdgIlc0eMC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body class="background">
     <header class="header">
-      <h1 class="title"><a href="https://github.com/rslaughter12" class="has-text-white">Portfolio Page</a></h1>
+      <!-- <h1 class="title"><a href="https://github.com/rslaughter12" class="has-text-white">Portfolio Page</a></h1> -->
       <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
         <div class="navbar-menu">
           <div class="navbar-start">
-            <a href="#About-Me" class="navbar-item has-text-white">About Me</a>
-            <a href="#My-Work" class="navbar-item has-text-white">My Work</a>
-            <a href="#Contact" class="navbar-item has-text-white">Contact</a>
+            <a href="#About-Me" class="navbar-item has-text-blackk">About Me</a>
+            <a href="#My-Work" class="navbar-item has-text-blackk">My Work</a>
+            <a href="#Contact" class="navbar-item has-text-blackk">Contact</a>
           </div>
         </div>
       </nav>
     </header>
     <section class="section">
-      <div class="container">
+        <div class="container d-flex justify-content-center">
+            <img class="img-fluid rounded-circle" src="./assets/images/headshot.jpg" alt="Headshot of Ryan Acevedo Slaughter" width="256" height="256">
+        </div>
         <h1 class="title is-1 has-text-centered has-text-primary has-shadow">Ryan Acevedo Slaughter</h1>
+        <main class="section">
+            <div class="container">
+              <div class="columns is-multiline">
+                <div class="column is-one-fourth">
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <a href="https://rslaughter12.github.io/prework-study-guide/"><img src="./Assets/images/prework-study-guide.png" alt="Sample photo"></a>
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <div class="content">
+                        <h3 class="title is-4">The Avengers Project</h3>
+                        <p>Used two different APIS to create a user friendly website that allows for the user to learn more inforamtion about the myriad of characters in the Marvel Cinematic and Comic Universe.</p>
+                      </div>
+                      <footer class="card-footer">
+                        <a href="https://rslaughter12.github.io/prework-study-guide/" class="card-footer-item">Check it Out by Clicking on the Photo!</a>
+                      </footer>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-one-fourth">
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <a href=""><img src="" alt="Sample photo"></a> 
+                        <!-- to do, add href to avengers site, and add img to box of the site. -->
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <div class="content">
+                        <h3 class="title is-4">Quiz Game Using javascript.</h3>
+                        <p>In this project the user is met with a friendly user interface that allows the user to take a timed quiz about javascript.</p>
+                      </div>
+                      <footer class="card-footer">
+                        <a href="" class="card-footer-item">Check it Out by Clicking on the Photo!</a>
+                        <!-- to do, add href to quizgame site, and add img to box of the site. -->
+                      </footer>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-one-fourth">
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img src="" alt="Sample photo">
+                        <!-- to do, add href to weather dashboard site, and add img to box of the site. -->
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <div class="content">
+                        <h3 class="title is-4">Weather Dashboard</h3>
+                        <p>In this project the user is able to pull information for current and upcoming weather for a location that the user searches. This information is being fetched from two different APIs.</p>
+                      </div>
+                      <footer class="card-footer">
+                        <button class="card-footer-item">Work in Progress.</button>
+                      </footer>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-one-fourth">
+                    <div class="card">
+                      <div class="card-image">
+                        <figure class="image is-4by3">
+                          <img src="" alt="Sample photo">
+                          <!-- to do, add href to weather dashboard site, and add img to box of the site. -->
+                        </figure>
+                      </div>
+                      <div class="card-content">
+                        <div class="content">
+                          <h3 class="title is-4">Weather Dashboard</h3>
+                          <p>In this project the user is able to pull information for current and upcoming weather for a location that the user searches. This information is being fetched from two different APIs.</p>
+                        </div>
+                        <footer class="card-footer">
+                          <button class="card-footer-item">Work in Progress.</button>
+                        </footer>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </main>
         <div class="hero"></div>
         <div id="About-Me" class="box">
-          <img src="./Assets/images/positano-headshot.jpg" alt="Headshot of Ryan Acevedo Slaughter" class="float-left image is-128x128 is-rounded" />
           <h2 class="title is-2">About Me</h2>
           <p>
             My name is Ryan Acevedo Slaughter, I am 25 years old and am from Clearwater Florida. I currently live in San Francisco when my wife and I moved here about two years ago. I graduated from Florida State University with a Master's Degree in Curriculum and Instruction. I am excited to become a software developer and make a career change when my course is completed. I hope to be working in the field during the summer of 2023. 
@@ -40,5 +124,17 @@
             I am currently a full-time 9/10th grade World History Teacher at San Francisco International High School. This job has allowed me to engage and support students who have recently immigrated to the United States. This experience has helped me to develop a global lens, learn how to teach students who do not speak the same language as me, as well as allow me to practice and grow my Spanish proficiency. My coding experience is new and growing everyday. You can view my two main projects below. 
           </p>
         </div>
-
+        <footer id="Contact">
+            <h2>Contact Information</h2>
+            <p>
+                <ul>
+                    <li>
+                        Email: rslaughter12@gmail.com
+                    </li>
+                    <li>
+                        Github Username: rslaughter12@gmail.com
+                    </li>
+                </ul>
+            </p>
+          </footer>
 </html>
